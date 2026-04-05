@@ -1,16 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>My Laravel App</title>
 </head>
-<style>
-    *{
-        background-color: grey;
-    }
-</style>
 <body>
-{{ $slot }}
-</body>
+    <x-navbar /> {{ $slot }} </body>
 </html>
